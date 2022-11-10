@@ -5,10 +5,14 @@
 
 body {
     background-image:url(assets/Image.jpg);
-    background-size: cover;
-    background-clip: padding-box;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-clip:border-box;
     background-attachment:fixed;
+    
+}
+
+* body {
     font-family: 'Libre Baskerville', serif;;
     color:  white;
 }

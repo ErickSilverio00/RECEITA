@@ -12,8 +12,10 @@ Página web de receita e modo de preparo de um bolo red velvet.
 <br>
 
 <p align="center">
-  <img alt="Bolo Red Velvet" src="Receita\CapaREADME.png" width="100%">
+  <img alt="Bolo Red Velvet" src="CapaREADME.png" width="100%">
 </p>
+
+[Clique aqui para acessar](https://ericksilverio00.github.io/Receita//)
 
 ## 🚀 Tecnologias
 

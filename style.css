@@ -5,8 +5,8 @@
 
 body {
     background-image:url(assets/Image.jpg);
-    background-position: 100%;
-    background-size: 100%;
+    background-size: cover;
+    background-clip: padding-box;
     background-repeat: no-repeat;
     background-attachment:fixed;
     font-family: 'Libre Baskerville', serif;;

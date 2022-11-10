@@ -137,3 +137,11 @@ header {
         opacity: 1;
     }
 }
+
+@media (min-width: 100px) {
+    body {
+        max-width: 2200px;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 5px;
+}
+
+body {
+    background-image:url(assets/Image.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: 'Libre Baskerville', serif;;
+    color:  white;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+header img {
+    margin: auto;
+    display: block;
+    width: 40%;
+    margin-bottom: 5%;
+}
+
+.container {
+    display: flex;
+
+}
+.ingredientes {
+    display: inline-block;
+    min-width: 49%;
+}
+
+.ingredientes h2 {
+    margin-bottom: 5%;
+}
+
+.ingredientes h2 span {
+    margin-bottom: 5%;
+}
+
+.ingredientes ul {
+    margin-bottom: 7%;
+}
+
+.ingredientes ul li {
+    margin-bottom: 3%;
+}
+
+.ingredientes ul li p {
+    text-align-last:auto;
+}
+
+.preparo {
+    display: inline-block;
+    
+}
+
+.preparo h2 {
+    margin-bottom: 5%;
+}
+
+.preparo h3 {
+    margin-bottom: 5%;
+}
+
+.preparo ul {
+    margin-bottom: 7%;
+}
+
+.preparo ul li {
+    margin-bottom: 3%;
+    list-style: decimal ;
+}
+
+.preparo ul li p {
+    text-align-last:auto;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 60%;
+    margin-bottom: 3%;
+}
+
+.Redes {
+    margin-left: 75%
+}
+
+.Redes ul {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1%;
+    list-style-type: none;
+}
+
+header h1:hover,
+header img:hover {
+    transform: scale(1.1);
+}
+
+header h1,
+header img {
+    transition: transform 0.4s;
+}
+
+header {
+    animation: appear .7s;
+}
+
+.Redes h1:hover,
+.Redes li:hover{
+    transform: scale(1.1);
+}
+
+.Redes h1, 
+.Redes li {
+    transition: transform 0.4s;
+}
+
+.Redes {
+    animation: appear .7s;
+}
+
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

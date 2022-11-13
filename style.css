@@ -4,12 +4,14 @@
 }
 
 body {
-    background-image:url(assets/Image.jpg);
-    background-repeat: no-repeat;
+    background: linear-gradient(#ff5f6d, #ffc371);
     background-size: cover;
-    background-clip:border-box;
-    background-attachment:fixed;
-    
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-attachment: fixed;
+    min-width: 100px;
+    max-width: 900px;
+    margin: auto;
 }
 
 * body {
@@ -88,13 +90,9 @@ header img {
 
 nav {
     display: inline-block;
-    margin-left: 60%;
     margin-bottom: 3%;
 }
 
-.Redes {
-    margin-left: 75%
-}
 
 .Redes ul {
     display: flex;
@@ -142,10 +140,6 @@ header {
     }
 }
 
-@media (min-width: 100px) {
-    body {
-        max-width: 2200px;
-        flex-direction:row;
-        flex-wrap: wrap;
+@media only screen and (max-device-width: 700px) {
+     body { width:auto; } 
     }
-}
